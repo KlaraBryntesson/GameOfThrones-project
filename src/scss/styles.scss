@@ -1,4 +1,3 @@
-
 $body-bg: rgb(254, 254, 254);
 $link-decoration: none;
 $primary-font: Optima, sans-serif;
@@ -15,19 +14,19 @@ main {
 }
 
 *,
-  *::before,
-  *::after {
-    color: $primary-color;
-    box-sizing: border-box;
-    font-family: $primary-font;
-  }
+*::before,
+*::after {
+  color: $primary-color;
+  box-sizing: border-box;
+  font-family: $primary-font;
+}
 
-  li {
-    list-style: none;
-  }
+li {
+  list-style: none;
+}
 
-  a:hover {
-    text-decoration: none;
-  }
+a:hover {
+  text-decoration: none;
+}
 
-  @import "bootstrap/scss/bootstrap"
+@import 'bootstrap/scss/bootstrap';
