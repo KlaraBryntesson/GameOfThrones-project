@@ -1,14 +1,8 @@
 
 $body-bg: rgb(254, 254, 254);
 $link-decoration: none;
-$primary-font: ITCgothic, sans-serif;
+$primary-font: Optima, sans-serif;
 $primary-color: rgb(22, 22, 22);
-
-@font-face {
-  font-family: ITCgothic;
-  font-weight: 400;
-  src: url('./assets/ITC/ITC-Avant-Garde-Gothic-Medium.otf') format(opentype);
-}
 
 body {
   display: flex;
@@ -17,7 +11,7 @@ body {
 main {
   margin: auto;
   width: 70%;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 *,
