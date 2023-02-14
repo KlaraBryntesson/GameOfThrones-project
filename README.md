@@ -1,1 +1,1 @@
-# A Vue.js template for Vite
+# Project using Vue.js and Vite.
