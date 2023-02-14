@@ -76,12 +76,16 @@
       <p v-if="quote !== undefined" id="quote">"{{ quote }}"</p>
       <p>Family: {{ Family }}</p>
       <ReviewComponent
+        v-if="$route.params.characterId < 12"
         :page="Number($route.params.characterId)"
         @submit="AddReview"
       />
     </div>
   </div>
-  <ReviewList :page="Number($route.params.characterId)" />
+  <ReviewList
+    v-if="$route.params.characterId < 12"
+    :page="Number($route.params.characterId)"
+  />
 </template>
 
 <style>

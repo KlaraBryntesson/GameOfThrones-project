@@ -10,7 +10,6 @@ const mutations = {
   },
   AddReview(state, value) {
     state[value.id].unshift(value.data);
-    // localStorage.setItem('vuexStore', JSON.stringify(state[value.id]));
   }
 };
 
@@ -19,7 +18,16 @@ const state = {
   allHouses: [],
   allReviews0: [],
   allReviews1: [],
-  allReviews2: []
+  allReviews2: [],
+  allReviews3: [],
+  allReviews4: [],
+  allReviews5: [],
+  allReviews6: [],
+  allReviews7: [],
+  allReviews8: [],
+  allReviews9: [],
+  allReviews10: [],
+  allReviews11: []
 };
 
 const actions = {
@@ -35,12 +43,6 @@ const actions = {
         commit('AddHouses', response.data);
       });
   }
-  // getState({ commit }) {
-  //   const savedStore = localStorage.getItem('vuexStore');
-  //   if (savedStore) {
-  //     commit('AddReview', JSON.parse(savedStore));
-  //   }
-  // }
 };
 
 const store = createStore({
@@ -49,7 +51,5 @@ const store = createStore({
   actions,
   strict: true
 });
-
-// store.dispatch('getState');
 
 export default store;
