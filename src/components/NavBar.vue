@@ -7,6 +7,7 @@
 </script>
 
 <template>
+  <!-- Navbar partially from Bootstrap -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="d-flex align-items-center">
       <RouterLink id="nav-heading" class="navbar-brand" to="/">

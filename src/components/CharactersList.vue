@@ -1,25 +1,10 @@
 <script>
   import { mapActions } from 'vuex';
   import { mapState } from 'vuex';
-  // import axios from 'axios';
+
   export default {
-    // data() {
-    //   return { result: null, quote: null, characterNames: [] };
-    // },
     methods: {
       ...mapActions(['axiosGOT'])
-      // axiosGOT() {
-      //   axios
-      //     .get('https://thronesapi.com/api/v2/Characters')
-      //     .then((response) => {
-      //       this.result = response.data;
-      //       console.log(this.result);
-      //       for (let x = 0; x < this.result.length; x++) {
-      //         this.characterNames.push(this.result[x].firstName.toLowerCase());
-      //       }
-      //       console.log(this.characterNames);
-      //     });
-      // }
     },
     computed: {
       ...mapState({

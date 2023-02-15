@@ -88,7 +88,7 @@
   />
 </template>
 
-<style>
+<style lang="scss">
   .character-wrapper {
     display: flex;
     flex-direction: row;
@@ -122,6 +122,7 @@
 
   #name-title {
     margin-left: 1rem;
+    font-size: 1.2vw;
   }
 
   #quote {

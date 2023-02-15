@@ -40,7 +40,7 @@
       <button
         :disabled="reviewInput.length === 0 || nameInput === 0"
         type="submit"
-        class="btn btn-light"
+        class="btn btn-primary"
         id="send-button"
       >
         Send
@@ -86,6 +86,5 @@
     height: 30px;
     margin-left: 15px;
     width: 90px;
-    background-color: rgb(224, 224, 224);
   }
 </style>
