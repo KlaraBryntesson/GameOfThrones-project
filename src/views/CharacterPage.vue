@@ -78,7 +78,7 @@
       <ReviewComponent
         v-if="$route.params.characterId < 12"
         :page="Number($route.params.characterId)"
-        @submit="AddReview"
+        @at-submit="AddReview"
       />
     </div>
   </div>
@@ -135,7 +135,7 @@
   .review-wrapper {
     padding: 20px;
     margin-bottom: 20px;
-    width: 70%;
-    background-color: rgb(231, 231, 225);
+    width: 60%;
+    background-color: rgb(224, 224, 224);
   }
 </style>

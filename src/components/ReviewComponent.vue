@@ -10,7 +10,7 @@
         default: null
       }
     },
-    emits: ['submit'],
+    emits: ['at-submit'],
     methods: {
       ...mapMutations(['AddReview']),
       onClick(event) {
@@ -24,7 +24,7 @@
         };
         this.nameInput = '';
         this.reviewInput = '';
-        this.$emit('submit', this.reviews);
+        this.$emit('at-submit', this.reviews);
       }
     }
   };
