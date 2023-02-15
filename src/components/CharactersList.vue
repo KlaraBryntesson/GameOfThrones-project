@@ -47,12 +47,18 @@
   h1 {
     padding-left: 2rem;
   }
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .character-list-box {
     background-color: rgb(235, 235, 235);
     margin-top: 20px;
+    margin-right: 20px;
     padding: 10px;
     border-radius: 5px;
-    max-width: 500px;
+    width: 400px;
     transition: 0.4s;
   }
 
