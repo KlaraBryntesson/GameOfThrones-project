@@ -49,7 +49,9 @@
   </form>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+  $button-color: rgb(224, 224, 224);
+
   #review-form {
     margin-top: 50px;
     display: flex;
@@ -79,6 +81,7 @@
   }
 
   #send-button {
+    background-color: $button-color;
     display: flex;
     align-items: center;
     justify-content: center;

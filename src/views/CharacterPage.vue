@@ -88,7 +88,7 @@
   />
 </template>
 
-<style lang="scss">
+<style>
   .character-wrapper {
     display: flex;
     flex-direction: row;
